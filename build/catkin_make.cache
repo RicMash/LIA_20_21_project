@@ -1,0 +1,2 @@
+gen_graph
+-DCATKIN_DEVEL_PREFIX=/home/ricmash/d/LIA_2020_21_project/devel -DCMAKE_INSTALL_PREFIX=/home/ricmash/d/LIA_2020_21_project/install -G Unix Makefiles

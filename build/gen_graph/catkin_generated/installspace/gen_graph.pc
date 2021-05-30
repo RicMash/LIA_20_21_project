@@ -1,0 +1,8 @@
+prefix=/home/ricmash/d/LIA_2020_21_project/install
+
+Name: gen_graph
+Description: Description of gen_graph
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

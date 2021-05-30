@@ -1,0 +1,15 @@
+digraph G {
+"camera_odom_frame" -> "camera_pose_frame"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 200.011 Hz\nMost recent transform: 1621872211.305 \nBuffer length: 2.795 sec\n"];
+"odom" -> "base_link"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 49.887 Hz\nMost recent transform: 1621872211.310 \nBuffer length: 2.786 sec\n"];
+"base_link" -> "laser_frame"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 49.889 Hz\nMost recent transform: 1621872211.290 \nBuffer length: 2.766 sec\n"];
+"base_link" -> "camera_link"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 49.889 Hz\nMost recent transform: 1621872211.290 \nBuffer length: 2.766 sec\n"];
+"base_link" -> "fisheye_rect"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 30.361 Hz\nMost recent transform: 1621872211.268 \nBuffer length: 2.767 sec\n"];
+"camera_link" -> "camera_fisheye1_frame"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+"camera_fisheye1_frame" -> "camera_fisheye1_optical_frame"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+"camera_link" -> "camera_fisheye2_frame"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+"camera_fisheye2_frame" -> "camera_fisheye2_optical_frame"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+"camera_link" -> "camera_gyro_frame"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+"camera_gyro_frame" -> "camera_gyro_optical_frame"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+"camera_link" -> "camera_accel_frame"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+"camera_accel_frame" -> "camera_accel_optical_frame"[label="Broadcaster: /play_1622372572423507336\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+}
